@@ -14,6 +14,9 @@
        <li>
          <router-link to="/about">关于我们</router-link>
        </li>
+       <li>
+         <router-link to="/fanpai">翻牌demo</router-link>
+       </li>
      </ul>
    </div>
 
@@ -35,10 +38,18 @@ export default {
     width: 100%;
     background: #e5e5e5;
     .nav_box{
-      width: 1200px;
-      height: 80px;
+      width: 12rem;
+      height: .8rem;
       background: #fff;
       margin: auto;
+      ul{
+        height: 100%;
+        li{
+          float: left;
+          margin-left: .625rem;
+          font-size: .26rem;
+        }
+      }
     }
     .isActive{
       background: yellow;

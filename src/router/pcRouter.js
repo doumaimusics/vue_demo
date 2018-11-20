@@ -10,6 +10,7 @@ import noPage from '../components/404.vue'
 import study from '@/components/views/study'
 import work from '@/components/views/work.vue'
 import hobby from '../components/views/hobby.vue'
+import fanpai from '@/components/fanpai'
 
 
 let router = new VueRouter({
@@ -59,7 +60,12 @@ let router = new VueRouter({
           name: 'Home'
         }
       }
-    }
+    },
+    {
+      name: 'Fanpai',
+      path: '/fanpai',
+      component: fanpai
+    },
   ]
 })
 
